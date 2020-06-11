@@ -1,8 +1,6 @@
 * {
-    border: thin dashed red;
     box-sizing: border-box;
-  font-family:Lucida Sans Unicode;
-
+    font-family: 'Indie Flower', cursive;
 }
 
 body {
@@ -24,7 +22,6 @@ header{
 
 h1{
     width: 80%;
-    
 }
 img{
     width: 20%;
@@ -34,23 +31,19 @@ img{
 
 header h1, header img{
     display: inline-block;
-    
 }
 .content{
     display: flex;
-    /*align-items: center;*/
     width: 100%;
 }
 .paragraph {
-   /* text-align: justify;*/
     width: 60%;
     margin-right:15px; 
     margin-left:5px;
-   
+    font-size: 18px;
 }
 .inputs{
     width: 40%;
-
 }
 ul{
     margin-top: 8px;
@@ -58,13 +51,12 @@ ul{
 .inputs ul{
      list-style-type: none;
      padding-left: 0;
+     font-family: 'Indie Flower', cursive;
 }
-/*hr{
-    width: 80%;
-    margin-left: 0;
-}*/
+
 li input{
     border: none;
+    font-size: 18px;
 }
 button{
     display: block;
@@ -73,4 +65,5 @@ button{
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
